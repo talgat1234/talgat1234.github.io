@@ -1,0 +1,104 @@
+ *{
+     margin:0 ;
+     padding: 0;
+     box-sizing: border-box;
+    
+ }
+     @font-face{
+         font-family: Roboto;
+         src: url(../fonts/Roboto-Regular.ttf );
+
+     }
+  body{
+      font-family: Roboto;
+    background-image:url(../img/ГОРОД.jpg);
+    text-align: center;
+    background-size:100%;
+    background-attachment: fixed;
+    padding: 30px;
+
+    
+    }
+    main{
+        width: 70%;
+        padding: 40px;
+        background-color: yellow;
+        margin-left: 15%; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: 0 0 10px 1px red ;
+    }
+     h1{
+           width: 100%;
+           font-size:50px ;
+     }
+     p{
+         width: 1000%;
+         font-size:25px ;
+     }
+
+     
+
+        
+   .photo{
+       width: 160px;
+       height: 160px;
+       background-color:black;
+       margin:17px;
+       transition: all 5s ease;
+       border-radius: 100px;
+       
+   }
+   .photo:hover{
+        transform: rotate(360deg) scale(2);
+   }
+    .photo1{ 
+        background-image: url(../img/77.jpg );
+        background-size:100% ;
+    }
+    .photo2{ 
+        background-image: url(../img/123.jpg );
+        background-size:100% ;
+    }
+    
+    .photo3{ 
+        background-image: url(../img/780.jpg );
+        background-size:100% ;
+    }
+    .photo4{ 
+        background-image: url(../img/863.jpg );
+        background-size:100% ;
+    }
+    .photo5{ 
+        background-image: url(../img/4364.jpg );
+        background-size:100% ;
+    }
+    .photo6{ 
+        background-image: url(../img/aa.jpg );
+        background-size:100% ;
+    }
+    .photo7{ 
+        background-image: url(../img/hh.jpg );
+        background-size:100% ;
+    }
+    .photo8{ 
+        background-image: url(../img/альпы.jpg );
+        background-size:100% ;
+    }
+    .photo9{ 
+        background-image: url(../img/кешбек.jpg );
+        background-size:100% ;
+    }
+    .photo10{ 
+        background-image: url(../img/мира.jpg );
+        background-size:100% ;
+    } 
+    .photo11{ 
+        background-image: url(../img/тема.jpg );
+        background-size:100% ;
+    }
+    .photo12{ 
+        background-image: url(../img/1.jpg );
+        background-size:100% ;
+    }
